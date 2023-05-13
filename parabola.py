@@ -59,11 +59,11 @@ def move():
 
     draw()
 
-    for target in targets:     
-        if not inside(target):
-            return
+    #for target in targets:     This instruction is omitted to keep the game running.
+       # if not inside(target):
+            #return
 
-    ontimer(move, 10) # This line change the speed of the game.
+    ontimer(move, 10)
 
 setup(420, 420, 370, 0)
 hideturtle()
